@@ -30,15 +30,19 @@
                 <h3>Trouvez votre hébergement pour des vacances de rêve</h3>
                 <p>En plein centre-ville ou en pleine nature</p>
             
-            <div id="recherche" >
-                <form class="fenetrerecherche" method="post" action="Recherche.php">
-                    <p>
-                        <!--<label for="recherche"></label>-->
-                        <input class="Recherche" type="text" name="destination" id ="destination" value="Marseille, France" size="20"><br>
-                    </p>
-                </form>
-                <input class="bouton_rechercher" type="submit" value="Rechercher" /><br>
-            </div>
+                <div id="recherche" >
+                    <form class="fenetrerecherche" method="post" action="Recherche.php">
+                        <p>
+                            <!--<label for="recherche"></label>-->
+                            <input class="Recherche" type="text" name="destination" id ="destination" value="Marseille, France" size="20"><br>
+                        </p>
+                    </form>
+                    <input class="bouton_rechercher" type="submit" value="Rechercher" />
+                </div>
+                <div>
+                    <h5 class="Filtre">Filtres</h5>
+                </div>
+
             </section>
 
             <main>
@@ -244,7 +248,32 @@
             </section>
 
             <footer>
-                
+                <div id="reserva-footer">
+                    <div class="Apropos">
+                        <h5>A propos</h5>
+                        <ul>
+                            <li><a href="#" class='Fonctionnement'>Fonctionnement du site</a></li>
+                            <li><a href="#" class="Conditions">Conditions générales de vente</a></li>
+                            <li><a href="#" class="Donnees">Données et confidentialité</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="Noshebergements">
+                        <h5>Nos hébergements</h5>
+                        <ul>
+                            <li><a href="#" class='Qualite'>Charte qualité</a></li>
+                            <li><a href="#" class="Soumettre">Soumettre votre hôtel</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="Assistance">
+                        <h5>Assistance</h5>
+                        <ul>
+                            <li><a href="#" class='Aide'>Centre d'aide</a></li>
+                            <li><a href="#" class="Contacter">Nous contacter</a></li>
+                        </ul>
+                    </div>
+                </div>
             </footer>
         </div>
     </body>
